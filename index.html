@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogs? Dogs.</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="image-container">
+        <h1 class="image-container__title">
+          Dogs That May or May Not Smell Like Corn
+        </h1>
+        <h2 class="image-container__subtitle">❓🌽❓</h2>
+        <img
+          src="./assets/images/8E51EF5B-91B4-4EF9-B843-28FE6A3A2A02_1_105_c.jpeg"
+          alt="a dog"
+          class="image-container__img"
+        />
+      </div>
+
+      <div class="facts">
+        <h3 class="facts__heading">Did You Know?</h3>
+        <p class="facts__text">Dogs are taller than cats (usually)</p>
+      </div>
+      <form class="form">
+        <label for="name" class="form__label"
+          >Enter a Dog Breed That is Incidentally
+          <strong>Exactly One Word</strong> <br />
+          Receive a Picture of Your Specified Dog and a Random Dog Fact</label
+        >
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Dog's Breed"
+          class="form__input"
+        />
+
+        <button type="submit" class="form__botton">Search</button>
+      </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
